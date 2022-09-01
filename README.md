@@ -1,4 +1,4 @@
-Hardening Project
+Hardening Project (WIP)
 =================
 
 Contains sysctl config files, grub boot parameters and a custom Kernel configuration used to harden all my (debian) Linux installs.
