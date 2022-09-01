@@ -1,7 +1,7 @@
 Hardening Project (WIP)
 =================
 
-Contains sysctl config files, grub boot parameters and a custom Kernel configuration used to harden all my (debian) Linux installs.
+Contains sysctl config files, grub boot parameters and a custom Kernel configuration used to harden all my (debian) Linux installs. These apply most recommendations from the [Kernel Self Protection Project](https://kernsec.org/wiki/index.php/Kernel_Self_Protection_Project/Recommended_Settings).
 
 * grub.d: contains grub configuration files adding extra boot parameters.
 * sysctl.d: contains sysctl.conf files to tweak kernel settings.
