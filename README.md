@@ -37,4 +37,4 @@ Kernel.config
 
 The current kernel config is only meant for Debian Bullseye. It is built using LLVM/Clang with the [linux-source](https://packages.debian.org/bullseye/linux-source) package. A .deb package is coming soon (to be used with my [Debian live iso](https://github.com/I-LeCorbeau/debian-live-build/releases), and for those who are rather trusting and don't want to compile the kernel themselves).
 
-Kernel building instructions are coming soon, but the gist: after installing the linux-source package and its build dependencies, extract the source, copy kernel.config to extracted source dir as .config, run __make CC=clang LLVM=1 -j$(nproc) bindeb-pkg__.
+Kernel building instructions are coming soon, but the gist: after installing the linux-source package and its build dependencies, install the llvm, clang and lld packages, then extract the kernel source (from /usr/src/) wherever you please, copy kernel.config to the extracted source dir as .config, run __make CC=clang LLVM=1 -j$(nproc) bindeb-pkg__.
